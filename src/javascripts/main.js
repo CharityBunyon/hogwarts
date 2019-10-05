@@ -1,9 +1,11 @@
+import navbar from './components/navbar/navbar';
+import studentList from './components/studentList/studentList';
 import '../styles/main.scss';
 
-import navbar from './components/navbar/navbar';
 
 const init = () => {
   navbar.loadNavbar();
+  studentList.createStudentList();
 };
 
 init();
