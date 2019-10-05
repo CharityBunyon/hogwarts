@@ -1,0 +1,18 @@
+@import '../../../styles/colors';
+@import '../../../styles/variables';
+
+.student-card {
+  width: 18%;
+  background-color: $gold;
+  box-shadow: $box-shadow;
+  margin:1%;
+
+  .img-holder {
+    height: 250 px;
+    overflow: hidden;
+      img {
+        width: 100%
+      }
+  }
+}
+ 
